@@ -15,14 +15,14 @@ import java.text.SimpleDateFormat;
 public class Server implements ActionListener{
     
     JPanel p1;
-    JTextField t1;//on whichh we write
-    JButton b1;//click karega
+    JTextField t1;
+    JButton b1;
     static JPanel a1;
     static JFrame f1 = new JFrame();
     
     static Box vertical = Box.createVerticalBox();
     
-    static ServerSocket skt;//for connecting
+    static ServerSocket skt;
     static Socket s;
     static DataInputStream din;
     static DataOutputStream dout;
